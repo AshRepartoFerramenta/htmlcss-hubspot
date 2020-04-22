@@ -1,0 +1,486 @@
+/***Inzio Reset***/
+*{
+  font-family: Montserrat;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/***Fine Reset */
+
+/***Inizio Regole Generali ***/
+body {
+  color: #32495b;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  padding: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 12px;
+}
+
+hr {
+  color: #32495b;
+  border: 1px solid #32495b;
+  width: 40%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  font-size: 10px;
+  font-weight: 500px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.button {
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 10px;
+  color: white;
+  background: #fe775a;
+}
+
+.fas {
+  font-size: 10px;
+}
+
+.fa-check-circle{
+  color:#fe775a;
+}
+
+.premise img {
+  width: 25%;
+}
+
+.premise  {
+  text-align: center;
+  height: 22%;
+  padding: 5%;
+}
+
+.premise p {
+  margin-top: 3%;
+  padding: 0 7%
+}
+/*** Fine Regole Generali ***/
+
+
+/*** Inizio Header ***/
+
+/* Inizio Search*/
+header nav.search  {
+  height: 66px;
+  line-height: 60px;
+  width: 100%;
+  background: #f4f9fd;
+  border-bottom: 2px solid #bec6cb;
+}
+
+header nav.search .contact {
+  float:left;
+  text-align: left;
+  width: 35%;
+  margin-left: 15%;
+}
+
+
+header nav.search .contact li {
+  margin-right: 2%;
+}
+
+header nav.search .signin {
+  float:left;
+  width: 35%;
+  margin-right: 15%;
+  text-align: right;
+}
+
+
+header nav.search .signin li {
+  margin-left: 2%;
+}
+
+header nav.search .signin .fa-search{
+  color: #01a5bd;
+}
+
+header nav.search .signin .login {
+  background: #fafcfe;
+  color:#fd8a72;
+  border: 1px solid #fd8a72;
+}
+
+/* Fine Search  */
+
+/* Inizio Options */
+header nav.menu {
+  height: 55px;
+  line-height: 63px;
+  width: 100%;
+  background: white;
+}
+
+header .menu .logo {
+  float: left;
+  margin-left: 15%;
+  width: 35%;
+  height: 55px;
+}
+
+header .menu .logo img {
+  line-height: 55px;
+  width: 75px;
+}
+
+header .menu .options {
+  float: left;
+  text-align: right;
+  width: 35%;
+  margin-right: 15%;
+  line-height: 55px;
+}
+
+header .menu .options li {
+  margin-left: 2%;
+}
+
+/* Fine Options */
+
+/* Inizio Trailer */
+header .trailer {
+  display: block;
+  height: 500px;
+  width: 100%;
+  padding: 0 15%;
+  background: url(../img/jumbotron.png);
+  background-size: 100% 575px;
+}
+header .trailer .presentation {
+  padding-top: 5%;
+  width:50%;
+}
+header .trailer .presentation li {
+  display: block;
+  margin: 8% 0;
+}
+header .trailer .presentation .button {
+  padding: 1.5em;
+}
+header .green {
+  height: 55px;
+  width: 100%;
+  background: #afebe4;
+  border-top: 3px solid black;
+  border-bottom: 3px solid #33475b;
+}
+/*** Fine Header ***/
+
+/*** Inizio Main ***/
+main #services {
+  background: #f4f9fd;
+  padding: 0 15%;
+}
+
+main #services .service {
+  background: white;
+  border:1px solid #e7ecf2;
+  border-radius: 5px;
+}
+/* Inizio colonna Orizzontale */
+main #services .horizontal .service {
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+main #services .horizontal .service .illustration {
+  float: left;
+  text-align: top;
+  margin-right: 5%;
+}
+
+main #services .horizontal .service img {
+  height: 100px;
+  margin-bottom: 15%;
+}
+main #services .horizontal .service .button {
+  padding: 15px;
+  text-align: center;
+  margin: 0 15%;
+}
+
+main #services .horizontal .service .description .one {
+  float: left;
+}
+
+main #services .horizontal .service .description h3 {
+  margin-bottom: 4%;
+}
+
+main #services .horizontal .service .description p, h4 {
+  margin-bottom: 2.5%;
+  margin-right: 10%;
+}
+
+main #services .horizontal .service .description hr {
+  float: right;
+  margin-top: 10px;
+}
+
+main #services .horizontal .service .description li span {
+  padding: 0 1.5%;
+}
+/* Fine colonna Orizzontale */
+
+/* Inzio Colonna verticale */
+main #services .vertical .service {
+  float: left;
+  width: 30%;
+  height: 600px;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 5%
+}
+
+main #services .vertical .service img {
+  height: 100px;
+  margin-bottom: 3%;
+}
+
+main #services .vertical .service h3 {
+  margin: 10% 0;
+}
+
+main #services .vertical .service hr {
+  width: 96%;
+  margin-top: 20%;
+}
+
+main #services .vertical .service h4 {
+  margin: 15% 0;
+}
+
+main #services .vertical .service li {
+  display:block;
+  text-align: left;
+}
+
+main #services .vertical .service .button {
+  margin: 0 25%;
+  margin-top: 10%;
+  padding: 15px;
+  text-align: center;
+}
+
+main #services .vertical .three {
+  margin: 0 5%;
+}
+
+/* Fine Colonna verticale */
+
+/* Inizio Riconoscimento */
+
+main #awards {
+  color: white;
+  background: #00adb4;
+  padding: 0 15%;
+}
+
+main #awards .mile {
+  float:left;
+  width: 25%;
+  height: 200px;
+  text-align: center;
+  border: 1px solid white;
+  border-top: 0px;
+}
+main #awards .mile img{
+  margin: 10% 0;
+}
+
+main #awards .mile h2 {
+  margin: 2% 0;
+}
+
+main #awards .miles .one, main #awards .miles .five {
+  border-left: 0;
+}
+
+main #awards .miles .four, main #awards .miles .eight {
+  border-right: 0;
+}
+
+main #awards .miles .five, main #awards .miles .six, main #awards .miles .seven, main #awards .miles .eight {
+  margin-bottom: 8%;
+  border-bottom: 0;
+}
+/* Fine Riconoscimento */
+
+/* Inizio Sommario */
+
+main #summary {
+  background: #fff;
+  padding: 0 15%;
+}
+
+main #summary .customers, main #summary .logos {
+  float:left;
+  text-align: center;
+  height: 200px;
+}
+
+main #summary .outro, main #summary .image {
+  float: left;
+  height: 400px;
+}
+
+main #summary .customers, main #summary .outro {
+  width: 40%;
+}
+
+main #summary .logos, main #summary .image {
+  width: 60%;
+}
+
+main #summary .customers h2 {
+  padding-top: 10%;
+}
+
+main #summary .customers p {
+  text-align: left;
+  padding: 5% 30%;
+}
+
+main #summary .image img {
+  float:right;
+  width: 40%;
+}
+
+main #summary .logos .logo {
+  float:left;
+  height: 50%;
+  padding: auto;
+  width: 25%;
+}
+
+main #summary .logos .logo img {
+  margin: 25% 0;
+  height: 20px;
+  width: 75%;
+}
+main #summary .outro li {
+  display: block;
+  margin: 8% 0;
+}
+
+main #summary .outro .button {
+  padding: 1.5em;
+}
+
+/* Fine Sommario */
+
+/*** Fine Main ***/
+
+/*** Inizio Footer ***/
+
+footer {
+  background: #32495b;
+  color: white;
+  padding: 2% 15%;
+}
+
+footer p {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+footer .list {
+  float: left;
+  padding: 0 3%;
+}
+
+footer .list li {
+  display:block;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+footer .list li:hover {
+  color: #fe775a;
+}
+
+footer .social ul:hover {
+  color: white;
+}
+
+footer .social li:hover {
+  color: #fe775a;
+}
+
+footer .social li {
+  display: inline;
+  text-align: center;
+  margin: 0 5%;
+}
+
+footer .button {
+  background: #dadee0;
+  color: #32495b;
+}
+footer .lang {
+  float: left;
+  text-align: center;
+  margin: 7% 28%;
+  margin-bottom: 5px;
+}
+footer .lang li{
+  padding:0 5px;
+}
+
+footer .lang li:hover {
+  color: #fe775a;
+}
+
+footer hr {
+  float: left;
+  border:1px solid #dadee0;
+  padding: 0 50%;
+  margin: 2% 0;
+}
+
+footer .last img {
+  float: left;
+}
+
+footer .policy {
+  float:right;
+  text-align: right;
+  width: 500px;
+}
+
+footer .policy li {
+  margin-top: 15px;
+  margin-left: 2%;
+}
+footer .last .copyright {
+  float: left;
+  padding: 0,10px;
+  margin-top: 40px;
+  margin-left: -110px;
+}
+/*** Fine Footer ***/
